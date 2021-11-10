@@ -1,0 +1,25 @@
+{
+    "name": "asvetlana21/tic-tac-toe",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Svetlana Antonova",
+            "email": "antonova.sveta2016antonova@yandex.ru"
+        }
+    ],
+    "description": "",
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.11",
+        "gabordemooij/redbean": "dev-master"
+    },
+	"bin": [
+        "bin/tic-tac-toe"
+    ],
+    "autoload": {
+        "files": [
+            "src/Controller.php",
+            "src/View.php",
+            "src/Model.php"
+        ]
+    }
+}
