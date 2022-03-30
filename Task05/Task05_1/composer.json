@@ -1,0 +1,19 @@
+{
+    "name": "labs/task05_1",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Svetlana Antonova",
+            "email": "antonova.sveta2016antonova@yandex.ru"
+        }
+    ],
+    "description": "",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
